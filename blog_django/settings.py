@@ -47,6 +47,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig', # 새로운 database connection module/app -> poll/apps 에 config classs를 등록한다는 뜻
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

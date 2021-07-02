@@ -4,3 +4,6 @@
 ```bash
 python manage.py runserver
 ```
+
+### default port
+5000
